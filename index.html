@@ -6,23 +6,41 @@
     <title>Rajashekar Reddy J | Digital Marketing Specialist</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Custom Cursor elements REMOVED -->
+
     <!-- Header -->
     <header>
         <div class="container">
             <nav>
-                <a href="#" class="logo">Rajashekar<span>Reddy</span></a>
+                <a href="#home" class="logo">Rajashekar<span>Reddy</span></a>
                 <ul class="nav-links">
                     <li><a href="#services">Expertise</a></li>
                     <li><a href="#experience">Experience</a></li>
-                    <li><a href="#case-studies">Case Studies</a></li>
+                    <li><a href="#case-studies">Work</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="tel:+917075061622" class="phone-icon"><i class="fas fa-phone"></i> Get in Touch</a></li>
                 </ul>
+                 <button class="mobile-nav-toggle" aria-controls="mobile-nav-links" aria-expanded="false">
+                    <span class="sr-only">Menu</span>
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
+             <ul class="mobile-nav-links" id="mobile-nav-links">
+                 <li><a href="#services">Expertise</a></li>
+                 <li><a href="#experience">Experience</a></li>
+                 <li><a href="#case-studies">Work</a></li>
+                 <li><a href="#skills">Skills</a></li>
+                 <li><a href="#education">Education</a></li>
+                 <li><a href="#contact">Contact</a></li>
+                 <li><a href="tel:+917075061622" class="phone-icon"><i class="fas fa-phone"></i> Get in Touch</a></li>
+             </ul>
         </div>
     </header>
 
@@ -30,13 +48,13 @@
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
-                <div class="hero-text">
+                <div class="hero-text animate-on-load fade-in-up">
                     <span class="experience-tag">3+ Years of Experience</span>
                     <h1>Digital Marketing <span>Specialist</span></h1>
                     <h2>Rajashekar Reddy J</h2>
                     <p>Results-driven professional specialized in Google Ads, performance marketing, and campaign optimization with expertise in lead generation and sales analytics.</p>
                     <div class="cta-buttons">
-                        <a href="RajashekarReddyJCV.pdf" class="download-btn" target="_blank">
+                        <a href="RajashekarReddyjcv.pdf" class="download-btn" target="_blank" rel="noopener noreferrer">
                             <i class="fas fa-file-download btn-icon"></i> Download CV
                         </a>
                         <a href="tel:+917075061622" class="contact-btn">
@@ -44,7 +62,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="hero-image">
+                <div class="hero-image animate-on-load fade-in">
                     <img src="Rajashekar.jpg" alt="Rajashekar Reddy J">
                 </div>
             </div>
@@ -54,10 +72,10 @@
     <!-- Services Section -->
     <section class="services" id="services">
         <div class="container">
-            <h2 class="section-title">My Expertise</h2>
-            
+            <h2 class="section-title animate-on-load fade-in">My Expertise</h2>
+
             <div class="services-grid">
-                <div class="service-card pink">
+                <div class="service-card pink animate-on-load fade-in-up">
                     <div>
                         <div class="service-number">01.</div>
                         <h3 class="service-title">Performance Marketing</h3>
@@ -69,8 +87,8 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="service-card green">
+
+                <div class="service-card green animate-on-load fade-in-up delay-1">
                     <div>
                         <div class="service-number">02.</div>
                         <h3 class="service-title">Lead Generation</h3>
@@ -82,8 +100,8 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="service-card yellow">
+
+                <div class="service-card yellow animate-on-load fade-in-up delay-2">
                     <div>
                         <div class="service-number">03.</div>
                         <h3 class="service-title">Data and Analytics</h3>
@@ -95,8 +113,8 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="service-card gray">
+
+                <div class="service-card gray animate-on-load fade-in-up delay-3">
                     <div>
                         <div class="service-number">04.</div>
                         <h3 class="service-title">Search Engine Optimization</h3>
@@ -115,20 +133,21 @@
     <!-- Experience Section -->
     <section class="experience" id="experience">
         <div class="container">
-            <h2 class="section-title">Work Experience</h2>
-            
+            <h2 class="section-title animate-on-load fade-in">Work Experience</h2>
+
             <div class="section-grid">
-                <div class="experience-item">
+                <div class="experience-item animate-on-load fade-in-up">
                     <div class="experience-meta">
                         <div class="company">Google Operations Center (GOC)</div>
                         <div class="duration">Nov 2024 - Present</div>
                     </div>
                     <h3 class="position">Digital Media Senior Associate</h3>
                     <div class="location"><i class="fas fa-map-marker-alt"></i> Hyderabad, TG</div>
-            
-                    <div class="responsibilities">
+                    <div class="responsibilities icon-list">
                         <ul>
-                            <p>Provided advanced Google Ads support for premium clients, resolving complex campaign issues across Search, YouTube & Performance Max. Delivered strategic insights through campaign audits and customized optimization plans.</p>
+                            <li><i class="fas fa-headset"></i><span>Advanced Google Ads support (Search, PMax, YT) for premium clients.</span></li>
+                            <li><i class="fas fa-search-dollar"></i><span>Resolved complex campaign issues & performance concerns.</span></li>
+                            <li><i class="fas fa-chart-pie"></i><span>Delivered strategic insights via campaign audits & optimization plans.</span></li>
                         </ul>
                     </div>
                     <div class="skills-used">
@@ -140,40 +159,48 @@
                         <span class="skill-tag">YouTube Ads</span>
                         <span class="skill-tag">Campaign Troubleshooting</span>
                     </div>
-                </div>                
-                <div class="experience-item">
+                </div>
+                <div class="experience-item animate-on-load fade-in-up delay-1">
                     <div class="experience-meta">
                         <div class="company">[x]cube Labs, Purpletalk India Pvt Ltd.</div>
                         <div class="duration">Jan 2022 - April 2024</div>
                     </div>
                     <h3 class="position">Inside Sales Analyst</h3>
                     <div class="location"><i class="fas fa-map-marker-alt"></i> Hyderabad, TG</div>
-                    <div class="responsibilities">
-                        <ul>
-                            <p>Led lead-gen and outreach using Google Ads, HubSpot, LinkedIn, and cold emailing to convert global decision-makers. Enhanced brand visibility and campaign ROI with SEMrush and Google Analytics insights.</p>
-                        </ul>
+                    <div class="responsibilities icon-list">
+                         <ul>
+                             <li><i class="fas fa-users-cog"></i><span>Led B2B lead-gen using HubSpot, LI Sales Nav, Apollo.io, Outreach.</span></li>
+                             <li><i class="fab fa-google"></i><span>Managed Google Ads (Search): Ave 8+ qualified leads/month.</span></li>
+                             <li><i class="fas fa-file-signature"></i><span>Crafted Ad Copy, RFQs, Pitch Decks (Agri, Healthcare, Mfg).</span></li>
+                             <li><i class="fas fa-handshake"></i><span>Contributed to closing $250K Fortune 500 deal (10x ROI).</span></li>
+                         </ul>
                     </div>
                     <div class="skills-used">
                         <span class="skill-tag">Lead Generation</span>
                         <span class="skill-tag">HubSpot CRM</span>
-                        <span class="skill-tag">Google Ads</span>
+                        <span class="skill-tag">Google Ads (Search)</span>
                         <span class="skill-tag">SEMrush</span>
-                        <span class="skill-tag">Google Analytics</span>
-                        <span class="skill-tag">Market Research</span>
+                        <span class="skill-tag">GA4</span>
                         <span class="skill-tag">Sales Planning</span>
-                        <span class="skill-tag">Business Development</span>
+                        <span class="skill-tag">Biz Dev</span>
+                        <span class="skill-tag">Pitch Decks</span>
+                        <span class="skill-tag">Fortune 500</span>
                     </div>
                 </div>
-                
-                <div class="experience-item">
+
+                <div class="experience-item animate-on-load fade-in-up delay-2">
                     <div class="experience-meta">
                         <div class="company">Enlume Technologies Pvt Ltd.</div>
                         <div class="duration">Jan 2021 - July 2021</div>
                     </div>
                     <h3 class="position">Business Development Intern</h3>
                     <div class="location"><i class="fas fa-map-marker-alt"></i> Hyderabad, TG</div>
-                    <div class="responsibilities">
-                        <p>As an intern at Enlume Technologies, I assisted in crafting email marketing campaigns, analyzing the sales funnel, and supporting cold emailing and calling efforts. I also conducted industry analysis to align our sales strategies with market trends.</p>
+                    <div class="responsibilities icon-list">
+                        <ul>
+                           <li><i class="fas fa-envelope-open-text"></i><span>Assisted email marketing campaign creation & funnel analysis.</span></li>
+                           <li><i class="fas fa-phone-alt"></i><span>Supported cold outreach (emailing, calling).</span></li>
+                           <li><i class="fas fa-chart-bar"></i><span>Conducted industry analysis for sales strategy alignment.</span></li>
+                        </ul>
                     </div>
                     <div class="skills-used">
                         <span class="skill-tag">Email Marketing</span>
@@ -186,117 +213,229 @@
         </div>
     </section>
 
-    <!-- Activities Section -->
-    <section class="activities" id="activities">
+    <!-- Case Studies / Our Work Section -->
+    <section class="case-studies" id="case-studies">
         <div class="container">
-            <h2 class="section-title">Related Activities</h2>
-            
-            <div class="activity-card">
-                <h3 class="activity-title">Executive - IPE Connect</h3>
-                <div class="activity-meta">
-                    <span>"IPE Connect", YesGnome, IGDC</span>
-                    <span>Aug 2022 - Nov 2024</span>
+            <div class="case-studies-header animate-on-load fade-in">
+                 <div class="case-header-text">
+                    <h2 class="section-title">Proof of Work</h2>
+                    <p>Selected projects showcasing tangible results and strategies implemented.</p>
                 </div>
-                <p>Led performance marketing and strategic coordination between startups, investors, and IGDC leadership to drive traffic and engagement for the conference.</p>
+                <div class="case-count">4<span>+</span></div>
             </div>
-            
-            <div class="activity-card">
-                <h3 class="activity-title">Startup Incubator - Coordinator</h3>
-                <div class="activity-meta">
-                    <span>"SIMATS", Saveetha University</span>
-                    <span>Aug 2018 - 2020</span>
+
+            <div class="detailed-case-studies-grid">
+                 <!-- [x]cube Labs Summary -->
+                 <div class="detailed-case-card case-xcube animate-on-load fade-in-up">
+                    <div class="case-card-content">
+                        <div class="case-card-header">
+                            <span class="case-client">[x]cube Labs</span>
+                            <span class="case-service-tag">In-House Role</span>
+                        </div>
+                        <h3 class="case-title">Driving Growth via Google Ads & Sales</h3>
+                        <div class="case-section">
+                            <h4>Services:</h4>
+                            <p>Google Ads (Brand Awareness, Traffic), Lead Generation, Sales Strategy, Content Creation.</p>
+                        </div>
+                        <div class="case-section">
+                            <h4>Tools:</h4>
+                             <ul class="case-tool-list">
+                                <li>Google Ads</li><li>HubSpot</li><li>LI Sales Nav</li><li>SEMrush</li><li>Apollo.io</li>
+                            </ul>
+                        </div>
+                         <div class="case-section impact-section">
+                            <h4><i class="fas fa-bullseye"></i> Impact:</h4>
+                            <ul class="impact-list">
+                                <li><span class="highlight">8+</span> avg. monthly leads (Google Ads)</li>
+                                <li><span class="highlight">$250K</span> Fortune 500 deal closed</li>
+                                <li><span class="highlight">10x</span> subsequent deal ROI</li>
+                            </ul>
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- Firebolt -->
+                 <div class="detailed-case-card case-firebolt animate-on-load fade-in-up delay-1">
+                    <div class="case-card-content">
+                        <div class="case-card-header">
+                            <span class="case-client">Firebolt Entertainment</span>
+                             <span class="case-service-tag tag-orange">B2B Lead Gen</span>
+                        </div>
+                        <h3 class="case-title">Targeted Outreach Campaign</h3>
+                         <div class="case-section">
+                            <h4>Services:</h4>
+                            <p>B2B Lead Generation, Outreach Strategy, Email Campaign Optimization.</p>
+                        </div>
+                        <div class="case-section">
+                            <h4>Tools:</h4>
+                            <ul class="case-tool-list">
+                                <li>LI Sales Nav</li><li>Apollo.io</li><li>Instantly</li><li>Snov.io</li>
+                            </ul>
+                        </div>
+                         <div class="case-section impact-section">
+                            <h4><i class="fas fa-bullseye"></i> Impact:</h4>
+                            <ul class="impact-list">
+                               <li><span class="highlight">50+</span> qual. leads in 4 weeks</li>
+                               <li><span class="highlight">15%</span> outreach-to-meeting rate</li>
+                           </ul>
+                        </div>
+                    </div>
                 </div>
-                <p>Championed startup culture by organizing mentoring sessions, case studies, and innovation challenges to support budding entrepreneurs at the university level.</p>
-            </div>
-            
-            <div class="activity-card">
-                <h3 class="activity-title">Publishers Connect - Coordinator</h3>
-                <div class="activity-meta">
-                    <span>"Chennai Publishers Connect", SIMATS</span>
-                    <span>Mar 2019</span>
+
+                 <!-- Lambda -->
+                <div class="detailed-case-card case-lambda animate-on-load fade-in-up delay-2">
+                     <div class="case-card-content">
+                        <div class="case-card-header">
+                            <span class="case-client">Lambda Supply Chain</span>
+                             <span class="case-service-tag tag-blue">Lead Gen Strategy</span>
+                        </div>
+                        <h3 class="case-title">Supply Chain Lead Pipeline</h3>
+                         <div class="case-section">
+                            <h4>Services:</h4>
+                            <p>Lead Generation Strategy, ICP Development & Market Research.</p>
+                        </div>
+                        <div class="case-section">
+                            <h4>Tools:</h4>
+                             <ul class="case-tool-list">
+                                 <li>LI Sales Nav</li><li>SimilarWeb</li><li>Google Analytics</li>
+                            </ul>
+                        </div>
+                         <div class="case-section impact-section">
+                            <h4><i class="fas fa-bullseye"></i> Impact:</h4>
+                             <ul class="impact-list">
+                               <li>Built <span class="highlight">100+</span> lead pipeline</li>
+                               <li>Secured key enterprise clients</li>
+                            </ul>
+                        </div>
+                     </div>
                 </div>
-                <p>Facilitated academic publishing processes by managing submissions, conducting plagiarism checks, and providing editorial support to researchers.</p>
+
+                <!-- Cohesyn -->
+                <div class="detailed-case-card case-cohesyn animate-on-load fade-in-up delay-3">
+                     <div class="case-card-content">
+                        <div class="case-card-header">
+                            <span class="case-client">Cohesyn</span>
+                             <span class="case-service-tag tag-pink">SEO & Automation</span>
+                        </div>
+                        <h3 class="case-title">SEO & Marketing Automation</h3>
+                        <div class="case-section">
+                            <h4>Services:</h4>
+                            <p>SEO Optimization, Marketing Automation Flow Setup (Lead Nurturing).</p>
+                        </div>
+                        <div class="case-section">
+                            <h4>Tools:</h4>
+                             <ul class="case-tool-list">
+                                <li>SEMrush</li><li>Ahrefs</li><li>HubSpot</li><li>Mailchimp</li>
+                            </ul>
+                        </div>
+                         <div class="case-section impact-section">
+                            <h4><i class="fas fa-bullseye"></i> Impact:</h4>
+                            <ul class="impact-list">
+                               <li><span class="highlight">+40%</span> organic traffic</li>
+                               <li><span class="highlight">+25%</span> lead conversion rate</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- SREW -->
+                <div class="detailed-case-card case-srew animate-on-load fade-in-up delay-4">
+                     <div class="case-card-content">
+                        <div class="case-card-header">
+                            <span class="case-client">S R ENGG WORKS (SREW)</span>
+                            <span class="case-service-tag tag-yellow">Full-Stack Digital</span>
+                        </div>
+                        <h3 class="case-title">Comprehensive Digital Strategy</h3>
+                        <div class="case-section">
+                            <h4>Services:</h4>
+                            <p>Google/Meta Ads, SEO, WhatsApp Marketing, Marketplace Integration.</p>
+                        </div>
+                        <div class="case-section">
+                            <h4>Tools:</h4>
+                            <ul class="case-tool-list">
+                                 <li>Google Ads</li><li>Meta Ads</li><li>IndiaMART</li><li>Ahrefs</li><li>WhatsApp</li>
+                            </ul>
+                        </div>
+                         <div class="case-section impact-section">
+                            <h4><i class="fas fa-bullseye"></i> Impact:</h4>
+                            <ul class="impact-list">
+                               <li><span class="highlight">3X</span> lead increase (60 days)</li>
+                               <li><span class="highlight">40+</span> direct WhatsApp leads/month</li>
+                           </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Case Studies Section -->
-    <section class="case-studies" id="case-studies">
+
+    <!-- Activities Section -->
+    <section class="activities" id="activities">
         <div class="container">
-            <div class="case-studies-header">
-                <div class="case-count">3<span>+</span></div>
-                <div class="case-header-text">
-                    <h2>Case Studies</h2>
-                    <p>Selected projects and campaigns that showcase my approach and results</p>
+            <h2 class="section-title animate-on-load fade-in">Related Activities</h2>
+
+            <div class="activity-card animate-on-load fade-in-up">
+                <h3 class="activity-title">Executive - IPE Connect</h3>
+                <div class="activity-meta">
+                    <span><i class="fas fa-calendar-alt"></i> Aug 2022 - Nov 2024</span>
+                    <span><i class="fas fa-building"></i> "IPE Connect", YesGnome, IGDC</span>
                 </div>
+                <p>Led performance marketing and strategic coordination for IGDC conference.</p>
             </div>
-            
-            <div class="case-studies-grid">
-                <div class="case-card orange">
-                    <h3 class="case-title">Google Ads Campaign Optimization</h3>
-                    <p>Improved CTR by 45% and decreased CPC by 20% through targeted optimization techniques</p>
+
+            <div class="activity-card animate-on-load fade-in-up delay-1">
+                <h3 class="activity-title">Startup Incubator - Coordinator</h3>
+                <div class="activity-meta">
+                     <span><i class="fas fa-calendar-alt"></i> Aug 2018 - 2020</span>
+                    <span><i class="fas fa-university"></i> "SIMATS", Saveetha University</span>
                 </div>
-                
-                <div class="case-card gray">
-                    <h3 class="case-title">B2B Lead Generation Strategy</h3>
-                    <p>Generated 150+ qualified leads for enterprise clients through multi-channel approach</p>
+                <p>Organized mentoring, case studies, and innovation challenges for university entrepreneurs.</p>
+            </div>
+
+            <div class="activity-card animate-on-load fade-in-up delay-2">
+                <h3 class="activity-title">Publishers Connect - Coordinator</h3>
+                <div class="activity-meta">
+                     <span><i class="fas fa-calendar-alt"></i> Mar 2019</span>
+                     <span><i class="fas fa-university"></i> "Chennai Publishers Connect", SIMATS</span>
                 </div>
-                
-                <div class="case-card yellow">
-                    <h3 class="case-title dark">Email Marketing Funnel Design</h3>
-                    <p>Increased conversion rates by 32% with strategic content and segmentation</p>
-                </div>
+                <p>Facilitated academic publishing: submissions, plagiarism checks, editorial support.</p>
             </div>
         </div>
     </section>
+
 
     <!-- Skills Section -->
     <section class="skills" id="skills">
         <div class="container">
-            <h2 class="section-title">Skills & Tools</h2>
-            
+            <h2 class="section-title animate-on-load fade-in">Skills & Tools</h2>
+
             <div class="skills-container">
-                <div class="skill-category">
-                    <h3 class="category-title">Marketing</h3>
+                <div class="skill-category animate-on-load fade-in-up">
+                    <h3 class="category-title"><i class="fas fa-bullhorn"></i> Marketing Tools</h3>
                     <div class="skill-list">
-                        <span class="skill-item">Google Ads</span>
-                        <span class="skill-item">Meta Ads</span>
-                        <span class="skill-item">GA4</span>
-                        <span class="skill-item">SEMrush</span>
-                        <span class="skill-item">SEO</span>
-                        <span class="skill-item">GTAG</span>
+                        <span class="skill-item">Google Ads</span><span class="skill-item">Meta Ads</span><span class="skill-item">GA4</span><span class="skill-item">SEMrush</span><span class="skill-item">SEO</span><span class="skill-item">SEM</span><span class="skill-item">Looker Studio</span><span class="skill-item">Ahrefs</span>
                     </div>
                 </div>
-                
-                <div class="skill-category">
-                    <h3 class="category-title">Sales & CRM</h3>
+
+                <div class="skill-category animate-on-load fade-in-up delay-1">
+                    <h3 class="category-title"><i class="fas fa-headset"></i> Sales & CRM</h3>
                     <div class="skill-list">
-                        <span class="skill-item">Hubspot</span>
-                        <span class="skill-item">Sales Navigator</span>
-                        <span class="skill-item">Gong</span>
-                        <span class="skill-item">Clearbit</span>
-                        <span class="skill-item">Apollo.io</span>
-                        <span class="skill-item">Clari</span>
+                        <span class="skill-item">Hubspot</span><span class="skill-item">Sales Nav</span><span class="skill-item">Apollo.io</span><span class="skill-item">Gong</span><span class="skill-item">Clearbit</span><span class="skill-item">Clari</span><span class="skill-item">Instantly</span><span class="skill-item">Snov.io</span><span class="skill-item">Zoho CRM</span>
                     </div>
                 </div>
-                
-                <div class="skill-category">
-                    <h3 class="category-title">Content & Design</h3>
+
+                <div class="skill-category animate-on-load fade-in-up delay-2">
+                    <h3 class="category-title"><i class="fas fa-pencil-alt"></i> Content & Design</h3>
                     <div class="skill-list">
-                        <span class="skill-item">Email Marketing</span>
-                        <span class="skill-item">Wordpress</span>
-                        <span class="skill-item">Canva</span>
-                        <span class="skill-item">Content Writing</span>
+                        <span class="skill-item">Email Marketing</span><span class="skill-item">Wordpress</span><span class="skill-item">Canva</span><span class="skill-item">Content Writing</span><span class="skill-item">Pitch Decks</span><span class="skill-item">Ad Copy</span>
                     </div>
                 </div>
-                
-                <div class="skill-category">
-                    <h3 class="category-title">Business Strategy</h3>
+
+                <div class="skill-category animate-on-load fade-in-up delay-3">
+                    <h3 class="category-title"><i class="fas fa-lightbulb"></i> Business Strategy</h3>
                     <div class="skill-list">
-                        <span class="skill-item">Lead Generation</span>
-                        <span class="skill-item">Sales Planning</span>
-                        <span class="skill-item">Business Case Preparation</span>
-                        <span class="skill-item">Market Research</span>
+                        <span class="skill-item">Lead Generation</span><span class="skill-item">Sales Planning</span><span class="skill-item">Biz Case Prep</span><span class="skill-item">Market Research</span><span class="skill-item">ICP Dev</span><span class="skill-item">Campaign Opt.</span>
                     </div>
                 </div>
             </div>
@@ -306,30 +445,30 @@
     <!-- Stats Section -->
     <section class="stats" id="stats">
         <div class="container">
-            <h2 class="section-title">Achievements</h2>
-            
+            <h2 class="section-title animate-on-load fade-in">Achievements</h2>
+
             <div class="stats-grid">
-                <div class="colored-card card-orange">
+                <div class="colored-card card-orange animate-on-load fade-in-up">
                     <div class="card-content">
                         <div class="stats-label">Professional Experience</div>
                         <div class="stats-number">3<span class="plus">+</span></div>
-                        <p>Years of hands-on experience in digital marketing and sales</p>
+                        <p>Years hands-on in digital marketing & sales</p>
                     </div>
                 </div>
-                
-                <div class="colored-card card-yellow">
+
+                <div class="colored-card card-yellow animate-on-load fade-in-up delay-1">
                     <div class="card-content">
                         <div class="stats-label">Published Content</div>
                         <div class="stats-number">2<span class="plus">+</span></div>
-                        <p>International journals published between 2018-2020</p>
+                        <p>International journals published (2018-2020)</p>
                     </div>
                 </div>
-                
-                <div class="colored-card card-lime">
+
+                <div class="colored-card card-lime animate-on-load fade-in-up delay-2">
                     <div class="card-content">
                         <div class="stats-label">Awards & Recognition</div>
                         <div class="stats-number">3<span class="plus">+</span></div>
-                        <p>Including Best Content Writing Support Award (2022)</p>
+                        <p>Incl. Best Content Writing Support Award (2022)</p>
                     </div>
                 </div>
             </div>
@@ -339,19 +478,20 @@
     <!-- Education Section -->
     <section class="education" id="education">
         <div class="container">
-            <h2 class="section-title">Education</h2>
-            
-            <div class="education-card">
+            <h2 class="section-title animate-on-load fade-in">Education</h2>
+
+            <div class="education-card animate-on-load fade-in-up">
+                 <i class="fas fa-graduation-cap education-icon"></i>
                 <h3 class="degree">BE in Electronics & Communication</h3>
                 <div class="institution">Saveetha University</div>
                 <div class="edu-meta">
-                    <span>2016 - 2020</span>
-                    <span>7.2 CGPA</span>
+                    <span><i class="fas fa-calendar-check"></i> 2016 - 2020</span>
+                    <span><i class="fas fa-star"></i> 7.2 CGPA</span>
                 </div>
                 <ul>
-                    <li>Led multiple student projects in technology and communication fields</li>
-                    <li>Active participant in Startup Incubator and Publishers Connect events</li>
-                    <li>Published international journals during academic tenure</li>
+                    <li>Led multiple student tech & communication projects</li>
+                    <li>Active in Startup Incubator & Publishers Connect</li>
+                    <li>Published 2 international journals during tenure</li>
                 </ul>
             </div>
         </div>
@@ -360,10 +500,10 @@
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <div class="container">
-            <h2 class="section-title">Contact Me</h2>
-            
+            <h2 class="section-title animate-on-load fade-in">Contact Me</h2>
+
             <div class="contact-info">
-                <div class="contact-item">
+                <div class="contact-item animate-on-load fade-in-up">
                     <div class="contact-icon">
                         <i class="fas fa-envelope"></i>
                     </div>
@@ -372,8 +512,8 @@
                         <a href="mailto:j.rajareddy7@gmail.com">j.rajareddy7@gmail.com</a>
                     </div>
                 </div>
-                
-                <div class="contact-item">
+
+                <div class="contact-item animate-on-load fade-in-up delay-1">
                     <div class="contact-icon">
                         <i class="fas fa-phone"></i>
                     </div>
@@ -382,34 +522,34 @@
                         <a href="tel:+917075061622">+91 7075061622</a>
                     </div>
                 </div>
-                
-                <div class="contact-item">
+
+                <div class="contact-item animate-on-load fade-in-up delay-2">
                     <div class="contact-icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <h3 class="contact-label">Location</h3>
                     <div class="contact-value">
-                        Hyderabad, TG. 
+                        Hyderabad, TG.
                     </div>
                 </div>
-                
-                <div class="contact-item">
+
+                <div class="contact-item animate-on-load fade-in-up delay-3">
                     <div class="contact-icon">
                         <i class="fab fa-linkedin"></i>
                     </div>
                     <h3 class="contact-label">LinkedIn</h3>
                     <div class="contact-value">
-                        <a href="https://www.linkedin.com/in/raj-reddy-j-bab5b5181" target="">Connect with me</a>
+                        <a href="https://www.linkedin.com/in/raj-reddy-j-bab5b5181" target="_blank" rel="noopener noreferrer">Connect with me</a>
                     </div>
                 </div>
             </div>
-            
-            <div class="book-demo">
+
+            <div class="book-demo animate-on-load fade-in-up delay-4">
                 <div class="demo-card">
-                    <div class="demo-title">Let's work together</div>
-                    <div class="demo-subtitle">Schedule a free consultation to discuss your project</div>
-                    <a href="https://cal.com/rajashekar-reddy-jammuladinne-w5mu2v" class="demo-btn">
-                        Book a Call
+                    <div class="demo-title">Ready to Boost Your Results?</div>
+                    <div class="demo-subtitle">Let's discuss how I can help your business grow.</div>
+                    <a href="https://cal.com/rajashekar-reddy-jammuladinne-w5mu2v" class="demo-btn" target="_blank" rel="noopener noreferrer">
+                        Book a Free Call
                         <div class="demo-btn-icon">
                             <i class="fas fa-arrow-right"></i>
                         </div>
@@ -426,13 +566,15 @@
                 <a href="#home">Home</a>
                 <a href="#services">Expertise</a>
                 <a href="#experience">Experience</a>
-                <a href="#case-studies">Case Studies</a>
+                <a href="#case-studies">Work</a>
                 <a href="#skills">Skills</a>
                 <a href="#education">Education</a>
                 <a href="#contact">Contact</a>
             </div>
-            <p>&copy; 2025 Rajashekar Reddy J. All rights reserved.</p>
+            <p>© <span id="current-year"></span> Rajashekar Reddy J. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
