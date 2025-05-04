@@ -101,7 +101,48 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 .phone-icon i { margin-right: 6px; }
 
 /* Mobile Navigation */
-.mobile-nav-toggle { display: none; background: none; border: none; color: var(--text-light); font-size: 24px; z-index: 1100; padding: 5px; }
+.mobile-nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--text-light);
+    font-size: 24px;
+    z-index: 1100;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    outline: none; /* Remove outline */
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide regular nav on mobile */
+    }
+    
+    .mobile-nav-toggle {
+        display: block; /* Show the toggle button */
+    }
+    
+    /* Ensure the button is clickable by giving it some space */
+    .mobile-nav-toggle i {
+        display: block;
+        min-width: 24px;
+        min-height: 24px;
+    }
+    
+    /* Position the nav correctly */
+    nav {
+        position: relative;
+    }
+    
+    .mobile-nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+}
 .mobile-nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background-color: rgba(13, 13, 18, 0.98); backdrop-filter: blur(10px); padding: 0; border-top: 1px solid var(--border-color); list-style: none; z-index: 1050; max-height: 0; overflow: hidden; transition: max-height 0.5s ease-out, padding 0.5s ease-out; }
 .mobile-nav-links.active { display: block; max-height: 80vh; padding: 20px 0; }
 .mobile-nav-links li { text-align: center; margin: 0; }
