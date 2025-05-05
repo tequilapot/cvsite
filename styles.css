@@ -163,7 +163,7 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 .hero-text h2 { font-size: 22px; font-weight: 500; margin-bottom: 15px; color: var(--text-medium); }
 .hero-text p { font-size: 17px; margin-bottom: 30px; color: var(--text-dark); max-width: 500px; }
 .hero-image { flex: 1; max-width: 380px; min-width: 280px; position: relative; }
-.hero-image img { width: 100%; border-radius: 16px; filter: grayscale(15%); box-shadow: 0 10px 30px var(--shadow-medium); display: block; }
+.hero-image img { width: 100%; border-radius: 16px; filter: grayscale(15%); box-shadow: none; display: block; }
 .cta-buttons { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 25px; }
 .download-btn, .contact-btn { padding: 12px 26px; border-radius: 30px; font-weight: 600; text-decoration: none; transition: all 0.3s ease-out; display: inline-flex; align-items: center; font-size: 15px; border: 2px solid transparent; }
 .download-btn { background-color: var(--hero-accent); color: var(--bg-dark); box-shadow: 0 4px 12px rgba(var(--hero-accent-rgb), 0.2); border-color: var(--hero-accent); }
